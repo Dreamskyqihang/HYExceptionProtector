@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HYExceptionProtector/HYExcepitionProtector.h"
+#import "HYExcepitionProtector.h"
 #import <objc/runtime.h>
 
 #import "Person.h"
