@@ -1,7 +1,6 @@
 ## iOS应用Crash保护系统
--------
 ### 方案：
-[简书](https://www.jianshu.com/p/eb713b1f22dc)
+参照简书：[iOS应用Crash保护系统](https://www.jianshu.com/p/eb713b1f22dc)
 -------
 ### 功能：
 对iOS APP进行崩溃保护，并对崩溃信息进行收集，可以根据需要上传到服务器，可以保护线上应用不闪退，并且收集到错误促使开发人员改正；该系统z从以下几个方面对APP进行保护
@@ -17,7 +16,8 @@
 ------
 ### 使用：
 1. 导入头文件
-``` #import "HYExcepitionProtector.h"
+```
+#import "HYExcepitionProtector.h"
 ```
 2.开启保护
 ```
