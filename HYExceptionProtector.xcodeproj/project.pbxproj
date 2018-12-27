@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290FB20C21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 290FB20B21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.m */; };
+		290FB20F21D23B350056A25C /* UIView+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 290FB20E21D23B350056A25C /* UIView+ExcepitionProtector.m */; };
+		290FB21221D240D30056A25C /* HYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 290FB21121D240D30056A25C /* HYView.m */; };
+		290FB21821D252660056A25C /* NSObject+KVOCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 290FB21721D252660056A25C /* NSObject+KVOCrashProtector.m */; };
+		29150BEC21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BEB21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.m */; };
+		29150BEF21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BEE21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.m */; };
+		29150BF221D32F1400C11A30 /* NSTimer+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BF121D32F1400C11A30 /* NSTimer+ExcepitionProtector.m */; };
+		29150BF521D3875100C11A30 /* NSSet+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BF421D3875100C11A30 /* NSSet+ExcepitionProtector.m */; };
+		29150BF821D3876800C11A30 /* NSMutableSet+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BF721D3876800C11A30 /* NSMutableSet+ExcepitionProtector.m */; };
+		29150BFB21D3A15B00C11A30 /* NSString+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BFA21D3A15B00C11A30 /* NSString+ExcepitionProtector.m */; };
+		29150BFE21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29150BFD21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.m */; };
+		292B764121CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B764021CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.m */; };
+		292B764721CA45F600CE6281 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B764621CA45F600CE6281 /* Person.m */; };
+		2961120021CB3C6F0052469B /* NSArray+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 296111FF21CB3C6F0052469B /* NSArray+ExcepitionProtector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2961120621CB7DDC0052469B /* NSDictionary+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961120521CB7DDC0052469B /* NSDictionary+ExcepitionProtector.m */; };
+		2961120921CB81CC0052469B /* NSMutableArray+ExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961120821CB81CC0052469B /* NSMutableArray+ExcepitionProtector.m */; };
+		29DE44DA217DB73500728149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE44D9217DB73500728149 /* AppDelegate.m */; };
+		29DE44DD217DB73500728149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE44DC217DB73500728149 /* ViewController.m */; };
+		29DE44E0217DB73500728149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DE44DE217DB73500728149 /* Main.storyboard */; };
+		29DE44E2217DB73700728149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DE44E1217DB73700728149 /* Assets.xcassets */; };
+		29DE44E5217DB73700728149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DE44E3217DB73700728149 /* LaunchScreen.storyboard */; };
+		29DE44E8217DB73700728149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE44E7217DB73700728149 /* main.m */; };
+		29DE44F2217DB73700728149 /* HYExceptionProtectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE44F1217DB73700728149 /* HYExceptionProtectorTests.m */; };
+		29DE44FD217DB73700728149 /* HYExceptionProtectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE44FC217DB73700728149 /* HYExceptionProtectorUITests.m */; };
+		29DE450D217DC2F500728149 /* NSObject+HYHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE450B217DC2F500728149 /* NSObject+HYHook.m */; };
+		29DE4510217DC32100728149 /* HYExcepitionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE450F217DC32100728149 /* HYExcepitionProtector.m */; };
+		29DE451A217DFB2000728149 /* HYExcepitionCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE4519217DFB2000728149 /* HYExcepitionCollector.m */; };
+		29DE451D217DFB5200728149 /* HYExcepitionReportor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DE451C217DFB5200728149 /* HYExcepitionReportor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29DE44EE217DB73700728149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29DE44CD217DB73500728149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DE44D4217DB73500728149;
+			remoteInfo = HYExceptionProtector;
+		};
+		29DE44F9217DB73700728149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29DE44CD217DB73500728149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DE44D4217DB73500728149;
+			remoteInfo = HYExceptionProtector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290FB20A21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		290FB20B21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		290FB20D21D23B350056A25C /* UIView+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		290FB20E21D23B350056A25C /* UIView+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		290FB21021D240D30056A25C /* HYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYView.h; sourceTree = "<group>"; };
+		290FB21121D240D30056A25C /* HYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYView.m; sourceTree = "<group>"; };
+		290FB21621D252660056A25C /* NSObject+KVOCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrashProtector.h"; sourceTree = "<group>"; };
+		290FB21721D252660056A25C /* NSObject+KVOCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrashProtector.m"; sourceTree = "<group>"; };
+		29150BEA21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ExcepitionProtectorSet.h"; sourceTree = "<group>"; };
+		29150BEB21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ExcepitionProtectorSet.m"; sourceTree = "<group>"; };
+		29150BED21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BEE21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29150BF021D32F1400C11A30 /* NSTimer+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BF121D32F1400C11A30 /* NSTimer+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29150BF321D3875100C11A30 /* NSSet+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BF421D3875100C11A30 /* NSSet+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29150BF621D3876800C11A30 /* NSMutableSet+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BF721D3876800C11A30 /* NSMutableSet+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29150BF921D3A15B00C11A30 /* NSString+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BFA21D3A15B00C11A30 /* NSString+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29150BFC21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		29150BFD21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		292B763F21CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+UnrecognizedSelectorProtector.h"; sourceTree = "<group>"; };
+		292B764021CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UnrecognizedSelectorProtector.m"; sourceTree = "<group>"; };
+		292B764521CA45F600CE6281 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		292B764621CA45F600CE6281 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		296111FE21CB3C6F0052469B /* NSArray+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		296111FF21CB3C6F0052469B /* NSArray+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		2961120421CB7DDC0052469B /* NSDictionary+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		2961120521CB7DDC0052469B /* NSDictionary+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		2961120721CB81CC0052469B /* NSMutableArray+ExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ExcepitionProtector.h"; sourceTree = "<group>"; };
+		2961120821CB81CC0052469B /* NSMutableArray+ExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ExcepitionProtector.m"; sourceTree = "<group>"; };
+		29DE44D5217DB73500728149 /* HYExceptionProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYExceptionProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DE44D8217DB73500728149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29DE44D9217DB73500728149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29DE44DB217DB73500728149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29DE44DC217DB73500728149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29DE44DF217DB73500728149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29DE44E1217DB73700728149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29DE44E4217DB73700728149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29DE44E6217DB73700728149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DE44E7217DB73700728149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DE44ED217DB73700728149 /* HYExceptionProtectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYExceptionProtectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DE44F1217DB73700728149 /* HYExceptionProtectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYExceptionProtectorTests.m; sourceTree = "<group>"; };
+		29DE44F3217DB73700728149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DE44F8217DB73700728149 /* HYExceptionProtectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYExceptionProtectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DE44FC217DB73700728149 /* HYExceptionProtectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYExceptionProtectorUITests.m; sourceTree = "<group>"; };
+		29DE44FE217DB73700728149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DE450B217DC2F500728149 /* NSObject+HYHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HYHook.m"; sourceTree = "<group>"; };
+		29DE450C217DC2F500728149 /* NSObject+HYHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HYHook.h"; sourceTree = "<group>"; };
+		29DE450E217DC32100728149 /* HYExcepitionProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYExcepitionProtector.h; sourceTree = "<group>"; };
+		29DE450F217DC32100728149 /* HYExcepitionProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYExcepitionProtector.m; sourceTree = "<group>"; };
+		29DE4514217DCD4800728149 /* HYExcepitionProtectedProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYExcepitionProtectedProtocol.h; sourceTree = "<group>"; };
+		29DE4518217DFB2000728149 /* HYExcepitionCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYExcepitionCollector.h; sourceTree = "<group>"; };
+		29DE4519217DFB2000728149 /* HYExcepitionCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYExcepitionCollector.m; sourceTree = "<group>"; };
+		29DE451B217DFB5200728149 /* HYExcepitionReportor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYExcepitionReportor.h; sourceTree = "<group>"; };
+		29DE451C217DFB5200728149 /* HYExcepitionReportor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYExcepitionReportor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29DE44D2217DB73500728149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44EA217DB73700728149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44F5217DB73700728149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29DE44CC217DB73500728149 = {
+			isa = PBXGroup;
+			children = (
+				29DE44D7217DB73500728149 /* HYExceptionProtector */,
+				29DE44F0217DB73700728149 /* HYExceptionProtectorTests */,
+				29DE44FB217DB73700728149 /* HYExceptionProtectorUITests */,
+				29DE44D6217DB73500728149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29DE44D6217DB73500728149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29DE44D5217DB73500728149 /* HYExceptionProtector.app */,
+				29DE44ED217DB73700728149 /* HYExceptionProtectorTests.xctest */,
+				29DE44F8217DB73700728149 /* HYExceptionProtectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DE44D7217DB73500728149 /* HYExceptionProtector */ = {
+			isa = PBXGroup;
+			children = (
+				29DE450A217DB76A00728149 /* HYExceptionProtector */,
+				29DE44D8217DB73500728149 /* AppDelegate.h */,
+				29DE44D9217DB73500728149 /* AppDelegate.m */,
+				29DE44DB217DB73500728149 /* ViewController.h */,
+				29DE44DC217DB73500728149 /* ViewController.m */,
+				292B764521CA45F600CE6281 /* Person.h */,
+				292B764621CA45F600CE6281 /* Person.m */,
+				290FB21021D240D30056A25C /* HYView.h */,
+				290FB21121D240D30056A25C /* HYView.m */,
+				29DE44DE217DB73500728149 /* Main.storyboard */,
+				29DE44E1217DB73700728149 /* Assets.xcassets */,
+				29DE44E3217DB73700728149 /* LaunchScreen.storyboard */,
+				29DE44E6217DB73700728149 /* Info.plist */,
+				29DE44E7217DB73700728149 /* main.m */,
+			);
+			path = HYExceptionProtector;
+			sourceTree = "<group>";
+		};
+		29DE44F0217DB73700728149 /* HYExceptionProtectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				29DE44F1217DB73700728149 /* HYExceptionProtectorTests.m */,
+				29DE44F3217DB73700728149 /* Info.plist */,
+			);
+			path = HYExceptionProtectorTests;
+			sourceTree = "<group>";
+		};
+		29DE44FB217DB73700728149 /* HYExceptionProtectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29DE44FC217DB73700728149 /* HYExceptionProtectorUITests.m */,
+				29DE44FE217DB73700728149 /* Info.plist */,
+			);
+			path = HYExceptionProtectorUITests;
+			sourceTree = "<group>";
+		};
+		29DE450A217DB76A00728149 /* HYExceptionProtector */ = {
+			isa = PBXGroup;
+			children = (
+				29DE4514217DCD4800728149 /* HYExcepitionProtectedProtocol.h */,
+				29DE450E217DC32100728149 /* HYExcepitionProtector.h */,
+				29DE450F217DC32100728149 /* HYExcepitionProtector.m */,
+				29DE4518217DFB2000728149 /* HYExcepitionCollector.h */,
+				29DE4519217DFB2000728149 /* HYExcepitionCollector.m */,
+				29DE451B217DFB5200728149 /* HYExcepitionReportor.h */,
+				29DE451C217DFB5200728149 /* HYExcepitionReportor.m */,
+				29DE450C217DC2F500728149 /* NSObject+HYHook.h */,
+				29DE450B217DC2F500728149 /* NSObject+HYHook.m */,
+				292B763F21CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.h */,
+				292B764021CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.m */,
+				296111FE21CB3C6F0052469B /* NSArray+ExcepitionProtector.h */,
+				296111FF21CB3C6F0052469B /* NSArray+ExcepitionProtector.m */,
+				2961120721CB81CC0052469B /* NSMutableArray+ExcepitionProtector.h */,
+				2961120821CB81CC0052469B /* NSMutableArray+ExcepitionProtector.m */,
+				2961120421CB7DDC0052469B /* NSDictionary+ExcepitionProtector.h */,
+				2961120521CB7DDC0052469B /* NSDictionary+ExcepitionProtector.m */,
+				290FB20A21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.h */,
+				290FB20B21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.m */,
+				290FB20D21D23B350056A25C /* UIView+ExcepitionProtector.h */,
+				290FB20E21D23B350056A25C /* UIView+ExcepitionProtector.m */,
+				290FB21621D252660056A25C /* NSObject+KVOCrashProtector.h */,
+				290FB21721D252660056A25C /* NSObject+KVOCrashProtector.m */,
+				29150BEA21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.h */,
+				29150BEB21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.m */,
+				29150BED21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.h */,
+				29150BEE21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.m */,
+				29150BF021D32F1400C11A30 /* NSTimer+ExcepitionProtector.h */,
+				29150BF121D32F1400C11A30 /* NSTimer+ExcepitionProtector.m */,
+				29150BF321D3875100C11A30 /* NSSet+ExcepitionProtector.h */,
+				29150BF421D3875100C11A30 /* NSSet+ExcepitionProtector.m */,
+				29150BF621D3876800C11A30 /* NSMutableSet+ExcepitionProtector.h */,
+				29150BF721D3876800C11A30 /* NSMutableSet+ExcepitionProtector.m */,
+				29150BF921D3A15B00C11A30 /* NSString+ExcepitionProtector.h */,
+				29150BFA21D3A15B00C11A30 /* NSString+ExcepitionProtector.m */,
+				29150BFC21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.h */,
+				29150BFD21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.m */,
+			);
+			path = HYExceptionProtector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29DE44D4217DB73500728149 /* HYExceptionProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DE4501217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtector" */;
+			buildPhases = (
+				29DE44D1217DB73500728149 /* Sources */,
+				29DE44D2217DB73500728149 /* Frameworks */,
+				29DE44D3217DB73500728149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYExceptionProtector;
+			productName = HYExceptionProtector;
+			productReference = 29DE44D5217DB73500728149 /* HYExceptionProtector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29DE44EC217DB73700728149 /* HYExceptionProtectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DE4504217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtectorTests" */;
+			buildPhases = (
+				29DE44E9217DB73700728149 /* Sources */,
+				29DE44EA217DB73700728149 /* Frameworks */,
+				29DE44EB217DB73700728149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DE44EF217DB73700728149 /* PBXTargetDependency */,
+			);
+			name = HYExceptionProtectorTests;
+			productName = HYExceptionProtectorTests;
+			productReference = 29DE44ED217DB73700728149 /* HYExceptionProtectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29DE44F7217DB73700728149 /* HYExceptionProtectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DE4507217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtectorUITests" */;
+			buildPhases = (
+				29DE44F4217DB73700728149 /* Sources */,
+				29DE44F5217DB73700728149 /* Frameworks */,
+				29DE44F6217DB73700728149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DE44FA217DB73700728149 /* PBXTargetDependency */,
+			);
+			name = HYExceptionProtectorUITests;
+			productName = HYExceptionProtectorUITests;
+			productReference = 29DE44F8217DB73700728149 /* HYExceptionProtectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29DE44CD217DB73500728149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "张鸿运";
+				TargetAttributes = {
+					29DE44D4217DB73500728149 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					29DE44EC217DB73700728149 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 29DE44D4217DB73500728149;
+					};
+					29DE44F7217DB73700728149 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 29DE44D4217DB73500728149;
+					};
+				};
+			};
+			buildConfigurationList = 29DE44D0217DB73500728149 /* Build configuration list for PBXProject "HYExceptionProtector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29DE44CC217DB73500728149;
+			productRefGroup = 29DE44D6217DB73500728149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29DE44D4217DB73500728149 /* HYExceptionProtector */,
+				29DE44EC217DB73700728149 /* HYExceptionProtectorTests */,
+				29DE44F7217DB73700728149 /* HYExceptionProtectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DE44D3217DB73500728149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DE44E5217DB73700728149 /* LaunchScreen.storyboard in Resources */,
+				29DE44E2217DB73700728149 /* Assets.xcassets in Resources */,
+				29DE44E0217DB73500728149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44EB217DB73700728149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44F6217DB73700728149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29DE44D1217DB73500728149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29150BFB21D3A15B00C11A30 /* NSString+ExcepitionProtector.m in Sources */,
+				290FB20C21D20AC20056A25C /* NSMutableDictionary+ExcepitionProtector.m in Sources */,
+				29DE44DD217DB73500728149 /* ViewController.m in Sources */,
+				292B764121CA3D6500CE6281 /* NSObject+UnrecognizedSelectorProtector.m in Sources */,
+				29DE451A217DFB2000728149 /* HYExcepitionCollector.m in Sources */,
+				29DE451D217DFB5200728149 /* HYExcepitionReportor.m in Sources */,
+				29150BF221D32F1400C11A30 /* NSTimer+ExcepitionProtector.m in Sources */,
+				29150BEF21D32D6600C11A30 /* NSNotificationCenter+ExcepitionProtector.m in Sources */,
+				29DE450D217DC2F500728149 /* NSObject+HYHook.m in Sources */,
+				29150BF521D3875100C11A30 /* NSSet+ExcepitionProtector.m in Sources */,
+				292B764721CA45F600CE6281 /* Person.m in Sources */,
+				29DE44E8217DB73700728149 /* main.m in Sources */,
+				29150BEC21D3261900C11A30 /* NSObject+ExcepitionProtectorSet.m in Sources */,
+				290FB21821D252660056A25C /* NSObject+KVOCrashProtector.m in Sources */,
+				2961120921CB81CC0052469B /* NSMutableArray+ExcepitionProtector.m in Sources */,
+				2961120621CB7DDC0052469B /* NSDictionary+ExcepitionProtector.m in Sources */,
+				2961120021CB3C6F0052469B /* NSArray+ExcepitionProtector.m in Sources */,
+				29DE44DA217DB73500728149 /* AppDelegate.m in Sources */,
+				29150BFE21D3A17500C11A30 /* NSMutableString+ExcepitionProtector.m in Sources */,
+				29150BF821D3876800C11A30 /* NSMutableSet+ExcepitionProtector.m in Sources */,
+				29DE4510217DC32100728149 /* HYExcepitionProtector.m in Sources */,
+				290FB20F21D23B350056A25C /* UIView+ExcepitionProtector.m in Sources */,
+				290FB21221D240D30056A25C /* HYView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44E9217DB73700728149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DE44F2217DB73700728149 /* HYExceptionProtectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DE44F4217DB73700728149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DE44FD217DB73700728149 /* HYExceptionProtectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29DE44EF217DB73700728149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DE44D4217DB73500728149 /* HYExceptionProtector */;
+			targetProxy = 29DE44EE217DB73700728149 /* PBXContainerItemProxy */;
+		};
+		29DE44FA217DB73700728149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DE44D4217DB73500728149 /* HYExceptionProtector */;
+			targetProxy = 29DE44F9217DB73700728149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29DE44DE217DB73500728149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DE44DF217DB73500728149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29DE44E3217DB73700728149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DE44E4217DB73700728149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29DE44FF217DB73700728149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29DE4500217DB73700728149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29DE4502217DB73700728149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29DE4503217DB73700728149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29DE4505217DB73700728149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYExceptionProtector.app/HYExceptionProtector";
+			};
+			name = Debug;
+		};
+		29DE4506217DB73700728149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYExceptionProtector.app/HYExceptionProtector";
+			};
+			name = Release;
+		};
+		29DE4508217DB73700728149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYExceptionProtector;
+			};
+			name = Debug;
+		};
+		29DE4509217DB73700728149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFN377ZHVM;
+				INFOPLIST_FILE = HYExceptionProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.58jr.HYExceptionProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYExceptionProtector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29DE44D0217DB73500728149 /* Build configuration list for PBXProject "HYExceptionProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DE44FF217DB73700728149 /* Debug */,
+				29DE4500217DB73700728149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DE4501217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DE4502217DB73700728149 /* Debug */,
+				29DE4503217DB73700728149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DE4504217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DE4505217DB73700728149 /* Debug */,
+				29DE4506217DB73700728149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DE4507217DB73700728149 /* Build configuration list for PBXNativeTarget "HYExceptionProtectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DE4508217DB73700728149 /* Debug */,
+				29DE4509217DB73700728149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29DE44CD217DB73500728149 /* Project object */;
+}
